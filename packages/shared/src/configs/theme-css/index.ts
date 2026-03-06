@@ -7,6 +7,7 @@ import baseCSS from './base.css?raw'
 import defaultCSS from './default.css?raw'
 import graceCSS from './grace.css?raw'
 import simpleCSS from './simple.css?raw'
+import rainbowCSS from './rainbow.css?raw'
 
 /**
  * 基础样式 CSS
@@ -20,6 +21,7 @@ export const themeMap = {
   default: defaultCSS,
   grace: graceCSS,
   simple: simpleCSS,
+  rainbow: rainbowCSS,
 } as const
 
 export type ThemeName = keyof typeof themeMap
